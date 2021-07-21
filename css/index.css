@@ -1,0 +1,73 @@
+:root{
+	--primary:#A5F1FC;
+	--dark:#000000;
+	--dark_blue:#02181B;
+	--pure:#ffffff;
+	--ternary:#C8BBBB;
+	--text_color:#E86C27;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+body{
+	background-image: linear-gradient(30deg,var(--dark_blue),var(--primary)) ;
+	background-repeat: no-repeat;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+li{
+	font-size: larger;
+}
+
+#tittle{
+	margin: 3.5% 0;
+}
+
+img{
+	width: 70%;
+}
+
+.text{
+	color: var(--pure);
+}
+
+#resume{
+	width: 90%;
+	height: 85px;
+	background: linear-gradient(180deg,var(--primary) 0%, var(--pure) 100%);
+	border-radius: 66px;
+	margin-bottom: 40px;
+}
+
+#resume_n{
+	text-align: center;
+	padding-top: 20px;
+	font-size: xx-large;
+	font-weight: bolder;
+	color: var(--dark);
+}
+
+a{
+	color: var(--pure);
+	text-decoration: none;
+}
+
+#thoughts{
+	text-align: center; 
+	color: var(--ternary);
+	font-size: 70px;
+	font-family: "Brush Script MT","Lucida Handwriting",Cursive;
+}
+
+@media screen and (max-width:992px) {
+	#thoughts{
+		font-size: 30px;
+	}
+}

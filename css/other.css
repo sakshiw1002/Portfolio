@@ -1,0 +1,115 @@
+:root{
+	--primary:#A5F1FC;
+	--dark:#000000;
+	--dark_blue:#02181B;
+	--pure:#ffffff;
+	--ternary:#C8BBBB;
+	--text_color:#E86C27;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+body{
+	background-image: linear-gradient(30deg,var(--dark_blue),var(--primary));
+	background-repeat: no-repeat;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#volunteer, #highlights , #social_media{
+	margin: 30px 0;
+}
+
+#social_media{
+	color: var(--pure);
+}
+#compsa , #csi , #rotaract{
+	margin: 50px;
+	border: #000000 solid;
+}  
+
+#compsa{
+	padding: 70px 15px 40px;
+}
+
+#csi{
+	padding: 50px 60px;
+}
+
+#rotaract{
+	padding: 50px 50px;
+}
+img{
+	margin: auto;
+}
+
+#demo{
+	text-align: center;
+	color: var(--ternary);
+	font-size: 100px;
+	font-family: "Brush Script MT","Lucida Handwriting",Cursive;
+}
+
+a{
+	color: var(--dark);
+	text-decoration: none;
+}
+
+#linkedin , #skype , #email , #github{
+	font-size: 80px;
+	margin: 30px;
+}
+
+#linkedin{
+	color:#0e76a8 ;
+}
+
+#skype{
+	color: #00AFF0;
+}
+
+#email{
+ background-image: linear-gradient(#4285f4,#bb001b,#ea4335,#fbbc05,#34a853);
+ -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+#github{
+	color: #6cc644;
+}
+
+@media  screen and (max-width:992px){
+	#clubs{
+		width: 80%;
+		margin: 10px;
+	}
+	#compsa , #csi , #rotaract{
+		margin: 20px;
+		padding: 30px 5%;
+	}  
+	
+	#compsa{
+		padding: 50px 5%;
+	}
+	
+	img{
+		width: 90%;
+		margin: auto;
+	}
+	#demo{
+			font-size: 50px;
+	}
+	#linkedin , #skype , #email , #github{
+		font-size: 40px;
+		margin: 30px;
+	}
+}
