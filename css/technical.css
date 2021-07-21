@@ -1,0 +1,120 @@
+:root{
+	--primary:#A5F1FC;
+	--dark:#000000;
+	--dark_blue:#02181B;
+	--pure:#ffffff;
+	--ternary:#C8BBBB;
+	--text_color:#E86C27;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+}
+
+body{
+	background-image: url("../images/bg.jpg");
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#car_img{
+	background-image: url("../images/logo/background.jpg");
+	margin-top: 30px;
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+img{
+	width: 15%;
+	margin:2.5% auto;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+#experience{
+	margin:30px 0;
+	color: var(--pure);
+}
+
+#technostart,#evolvingx{
+	background-image: url("../images/logo/image1.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	border-radius: 20px;
+	height: 250px;
+	margin: 0 40px 40px 40px;
+}
+
+
+#certificate{
+	text-align: center;
+	margin:30px 110px;
+	background-color: var(--pure);
+	color: var(--dark);
+	padding: 15px 0;
+	border-radius: 20px;
+	width: 300px;
+}
+a{
+	color: var(--dark);
+	text-decoration: none;
+}
+
+#technostart_title{
+text-align: center;
+margin-top: 30px;
+}
+
+#role_1{
+text-align: center;
+margin-top: 10px;
+color: var(--pure);
+}
+
+#evolvingx_title{
+	text-align: center;
+	margin-top: 30px;
+	color: var(--pure);
+	}
+
+#role_2{
+text-align: center;
+margin-top: 10px;
+color: var(--dark);
+}
+
+@media screen and (max-width:992px) {
+	#car_img{
+		width: 80%;
+		height: 80%;
+	}
+	img{
+		width: 50%;
+	}
+	#technostart,#evolvingx{
+		height: 180px;
+		margin: 20px 40px;
+		padding: 5px;
+		width: 80%;
+	}
+
+	#certificate{
+		font-size: medium;
+		padding: 5px 0;
+		border-radius: 20px;
+		width: 60%;
+		margin: 30px 20%;
+	}
+
+	#technostart_title , #role_1 , #evolvingx_title , #role_2{
+	font-size:medium;
+	}
+}
