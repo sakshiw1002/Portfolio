@@ -63,7 +63,6 @@ a{
 	text-align: center; 
 	color: var(--ternary);
 	font-size: 70px;
-	font-family: "Brush Script MT","Lucida Handwriting",Cursive;
 }
 
 @media screen and (max-width:992px) {
